@@ -1,7 +1,7 @@
 import bluetooth, time
 from machine import Pin, Timer
 
-NAME = "CAM-00"                                 # ★ 내 번호로 바꾼다
+NAME = "CAM-DW502-이재성"                                 # ★ 내 번호로 바꾼다
 btn = Pin(0, Pin.IN, Pin.PULL_UP)               # 누르면 0
 red = Pin(33, Pin.OUT, value=1)                 # 빨간 LED: 0 이 켜짐
 

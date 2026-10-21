@@ -1,7 +1,7 @@
 import bluetooth, time
 from machine import Pin, PWM, Timer
 
-NAME = "CAM-00"                                 # ★ 내 번호로 바꾼다
+NAME = "CAM-DW502-이재성"                                 # ★ 내 번호로 바꾼다
 btn = Pin(0, Pin.IN, Pin.PULL_UP)               # 누르면 0
 flash = PWM(Pin(4), freq=1000, duty=0)          # 플래시 밝기 0~1023 (직시 금지)
 red = Pin(33, Pin.OUT, value=1)                 # 빨간 LED: 0 이 켜짐
